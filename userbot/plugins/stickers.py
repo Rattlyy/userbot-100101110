@@ -61,7 +61,7 @@ async def _(event):
     user = await bot.get_me()
     if not user.first_name:
         user.first_name = user.id
-    pack = 1
+    pack = 2
     userid = event.from_id
     packname = f"{user.first_name} Pack Vol.{pack}"
     packshortname = f"vol_{pack}_with_{userid}"
